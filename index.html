@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maulidina Oktaviani</title>
+
+    <!-- bootsrap css -->
+    <link rel="stylesheet" href="bootstrap-4.4.1/css/bootstrap.min.css">
+
+    <!-- my css -->
+    <link rel="stylesheet" href="portofolio.css">
+</head>
+<body>
+    <!-- membuat navbar -->
+    <div class="navbar"></div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">      
+      <a class="navbar-brand" href="#home">Maulidina Oktaviani</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ml-auto">
+            <a class="nav-item nav-link" href="#">Home</a>
+            <a class="nav-item nav-link" href="#about">About</a>
+            <a class="nav-item nav-link" href="#portofolio">Portofolio</a>
+            <a class="nav-item nav-link" href="#contact">Contact</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- membuat jumbotron -->
+    <div class="jumbotron">
+      <div class="container text-center">
+        <img src="image/dina.jpg" width="25%" class="rounded-circle img-thumbnail">
+        <h1 class="display-4">Maulidina Oktaviani</h1>
+        <p class="lead">Selamat datang di website pertama saya</p>
+      </div>
+    </div>
+
+        <!-- membuat about -->
+        <section id="about" class="about">
+          <div class="container">
+            <div class="row mb-2">
+              <div class="col text-center">
+                <h2>About</h2>
+              </div>
+            </div>
+      
+            <!-- membuat isi about -->
+            <div class="row justify-content-center">
+              <div class="col-md-7 text-center">
+                <p>Web ini dibuat untuk memenuhi tugas salah satu mata kuliah yang saya tempuh di salah satu perguruan tinggi negeri yang ada di Banyuwangi.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+            <!-- membuat tulisan portofolio -->
+    <section id="portofolio" class="portofolio bg-light pb-3">
+      <div class="container">
+        <div class="row mb-3 pt-3">
+          <div class="col text-center">
+            <h2>Portofolio</h2>
+          </div>
+        </div>
+        <!-- membuat isi portofolio -->
+        <!-- portofolio part1 -->
+        <div class="row mb-3">
+          <div class="col-md">
+            <div class="card">
+              <img src="image/portofolio2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img src="image/portofolio1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img src="image/portofolio3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- portofolio part2 -->
+        <div class="row mb-3">
+          <div class="col-md">
+            <div class="card">
+              <img src="image/portofolio4.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img src="image/portofolio5.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+          <div class="col-md">
+            <div class="card">
+              <img src="image/portofolio6.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+      <!-- membuat contact -->
+  <section id="contact" class="contact mb-4">
+    <div class="container">
+      <div class="row pt-3 mb-3 text-white">
+        <div class="col text-center">
+          <h2>Contact Us</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-5" >
+          <div class="card text-white bg-info mb-4 text-center">
+            <div class="card-body">
+              <h5 class="card-title">Contact Us</h5>
+              <p class="card-text">Anda bisa menghubungi kami melalui beberapa cara di bawah ini: </p>
+            </div>
+          </div>
+          <!-- membuat list grup -->
+          <ul class="list-group">
+            <li class="list-group-item">Politeknik Negeri Banyuwangi</li>
+            <li class="list-group-item">Jl. Raya Jember KM 13 Labanasem, Kabat</li>
+            <li class="list-group-item">Banyuwangi, Jawa Timur</li>
+            <li class="list-group-item">Email : dinaokta906@gmail.com</li>
+            <li class="list-group-item">Telp. 082336832923</li>
+          </ul>
+        </div>
+
+        <div class="col-lg-6">
+          <form>
+            <div class="form-group text-white">
+              <label for="nama">Nama</label>
+              <input type="text" class="form-control" id="nama">
+            </div>
+            <div class="form-group text-white">
+              <label for="email">Email</label>
+              <input type="text" class="form-control" id="email">
+            </div>
+            <div class="form-group text-white">
+              <label for="pesan">Pesan</label>
+              <textarea name="pesan" id="pesan" class="form-control"></textarea>
+            </div>
+            <div class="form-group text-white">
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+  </div>
+  </section>
+
+  <!-- membuat footer -->
+  <footer class="bg-dark text-white">
+    <div class="container">
+      <div class="row pt-3">
+        <div class="col text-center">
+          <p>dina oktavia | copyright 2020</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+    </div>
+    <script src="bootstrap-4.4.1/js/jquery-3.4.1.min.js"></script>
+    <script src="bootstrap-4.4.1/js/bootstrap.min.js"></script>
+
+    
+</body>
+</html>
